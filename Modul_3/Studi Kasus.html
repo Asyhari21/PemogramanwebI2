@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studi Kasus Modul 3</title>
+</head>
+<body>
+    <h2>Studi Kasus: Validasi Input HTML5</h2>
+    <form action="" method="post">
+        <table border=0>
+            <tr>
+                <td>Nama</td>
+                <td>:   <input type="text" name="nama" placeholder="Isikan Nama Anda" pattern="[a-zA-Z]+" size="30" required/></td>
+            </tr>
+           
+            <tr>
+                <td>Usia</td>
+                <td>:   <input type="number" name="umur" placeholder="Usia"  min="17" max="30" required/>(Usia Min 17-30)</td>
+            </tr>
+           
+            <tr>
+                <td>Email</td>
+                <td>:   <input type="email" name="email" placeholder="Masukkan Alamat E-mail Anda" size="30" required/></td>
+            </tr>
+           
+            <tr>
+                <td>Web</td>
+                <td>:   <input type="url" name="webaddress" placeholder="http://" size="30" required></td>
+            </tr>
+            
+            <tr>
+                <td>Password</td>
+                <td>:   <input type="password" name="pass" placeholder="Semua karakter, min 8" size="30" required/></td>
+            </tr>
+            
+            <tr>
+                <td></td>
+                <td>&nbsp;<input type="submit" value="Submit" /></td>
+            </tr>
+        
+        </table>
+    </form>
+</body>
+</html>

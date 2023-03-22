@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <title>Desain Responsive</title>
+
+    <style>
+        #wrapper {
+            margin: auto;               /* untuk menentukan margin sebagai auto */
+            width: 100%;                /* width digunakan untuk menentukan lebar */
+        }
+
+        #header {
+            height: 150px;              /* height menentukan tinggi */
+            padding: 20px;              /* memberi padding atau jarak */
+            border: 2px solid red;    /* border menentukan tebal border, solid berupa garis, red berupa warna border */
+        }
+
+        #nav {
+            margin: auto;
+            padding: 20px;
+            height: 200px;
+            border: 2px solid red;
+        }
+
+        .box {
+            float: left;                /* membuat style melayang pada bagian kiri */
+            width: 22%;
+            margin: 0 2% 0 0;
+            height: 120px;
+            background: red;
+            border: 2px solid red;
+        }
+
+        #footer {
+            padding: 20px;
+            height: 120px;
+            border: 2px solid red;
+        }
+
+        /* Responsif tablet */
+        /* Hanya akan diaplikasikan apabila tidak melebihi 768px */
+        @media only screen and (max-width: 768px) {
+            #nav {
+                height: 360px;
+            }
+
+            /* atur box 2 kolom */
+            .box {
+                width: 45%;
+                margin: 0 4% 20px 0
+            }
+        }
+
+        /* Responsif Smartphone */
+        /* Hanya akan diaplikasikan apabila tidak melebihi 375px */
+        @media only screen and (max-width: 375px) {
+            #nav {
+                height: 640px;
+            }
+
+            /* atur box 1 kolom */
+            .box {
+                width: 100%;
+                margin: 0 0 20px 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- memberikan style pada div class -->
+    <div id="wrapper">
+
+        <div id="header">
+            <h2>Header</header>
+        </div>
+
+        <div id="nav">
+            <h2>Services</h2>
+
+            <div class="box">
+                BOX 1
+            </div>
+
+            <div class="box">
+                BOX 2
+            </div>
+
+            <div class="box">
+                BOX 3
+            </div>
+
+            <div class="box">
+                BOX 4
+            </div>
+        </div>
+
+        <div id="footer">
+            <h2>Footer</h2>
+        </div>
+    </div>
+</body>
+
+</html>

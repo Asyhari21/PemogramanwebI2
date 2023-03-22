@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Menggunakan Media Query CSS3</title>
+    
+    <style>
+
+        /* Pengaturan default display none */
+        .smartphone {
+            display: 320px;
+        }
+
+        /* Media query untuk smartphone 375px */
+        /* Hanya akan diaplikasikan apabila tidak melebihi 375px */
+        @media only screen and (max-width: 375px) {
+            body {
+                background-color: yellow;       /* memberi warna yellow sebagai background color */
+            }
+
+            .smartphone {
+                display: block;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <h3>Menggunakan Media Query</h3>
+
+    <!-- Memberi style pada div class -->
+    <div class="smartphone">
+        <h2>Terdeteksi ukuran smartphone</h2>
+    </div>
+</body>
+
+</html>

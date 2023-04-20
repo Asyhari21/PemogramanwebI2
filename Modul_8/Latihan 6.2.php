@@ -1,4 +1,4 @@
->?php
+<?php
     /**
     * Mencetak string
     * $teks nilai string

@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Dangwer night";
+}
+body {
+  background-color: #967e76;
+}
+.login-box {
+  position: absolute;
+  width: 350px;
+  height: 420px;
+  background: #9babb8;
+  padding: 50px 30px;
+  left: 40%;
+}
+input[type="submit"] {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #000000;
+  background: #eee3cb;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  position: absolute;
+  right: 45px;
+  left: 40px;
+  bottom: 16%;
+}
+.container {
+  margin-top: 150px;
+}

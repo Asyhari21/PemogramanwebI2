@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+body {
+  background-image: url("https://3.bp.blogspot.com/-Nalyc1j_W-s/Wi4MVFwl2JI/AAAAAAAAAe4/6HVu42zAJm4aIEjikClbiyUUqDN5KQ-bwCEwYBhgL/s1600/3.%2BLatar%2BBelakang%2BAbu-abu%2BAbstrak.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.box {
+  width: 100%;
+  padding: 20px;
+  background-color: #393646;
+  box-shadow: 0px 0px 5px #ccc;
+  border-radius: 20px;
+  opacity: 85%;
+}
+.teks {
+  text-align: center;
+}
+
+.tekskiri {
+  margin: 10px;
+  padding: 0px;
+  text-align: left;
+}
+.kotax {
+  width: 100%;
+  padding: 20px;
+  background-color: #957777;
+  box-shadow: 0px 0px 5px #ccc;
+}
+.lable {
+  font-family: "Poppins";
+  color: #957777;
+}
